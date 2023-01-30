@@ -13,15 +13,12 @@ import com.google.firebase.database.ChildEventListener
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ktx.database
 import com.google.firebase.database.ktx.getValue
 import com.google.firebase.ktx.Firebase
 import hr.algebra.petshop.adapter.OrderAdapter
-import hr.algebra.petshop.adapter.PetAdapter
 import hr.algebra.petshop.databinding.FragmentOrdersBinding
 import hr.algebra.petshop.model.Order
-import hr.algebra.petshop.model.Pet
 
 class OrdersFragment : Fragment() {
     private lateinit var binding: FragmentOrdersBinding
@@ -62,7 +59,7 @@ class OrdersFragment : Fragment() {
             override fun onChildChanged(snapshot: DataSnapshot, previousChildName: String?) {
                 val order = snapshot.getValue<Order>()
                 if(order != null){
-                    orders[orders.indexOf(orders.firstOrNull { it.pet_id == order?.pet_id })] = order
+                    orders[orders.indexOf(orders.firstOrNull { it.pet_id == order.pet_id })] = order
                     binding.rvOrders.adapter?.notifyDataSetChanged()
                 }
             }

@@ -7,7 +7,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.database.ChildEventListener
@@ -18,11 +17,9 @@ import com.google.firebase.database.ktx.getValue
 import com.google.firebase.ktx.Firebase
 import hr.algebra.petshop.adapter.PetAdapter
 import hr.algebra.petshop.databinding.FragmentPetsBinding
-import hr.algebra.petshop.handler.downloadImageAndStore
 import hr.algebra.petshop.handler.petDTOToPet
 import hr.algebra.petshop.model.Pet
 import hr.algebra.petshop.model.PetDTO
-import hr.algebra.petshop.model.PetType
 import kotlinx.coroutines.*
 
 class PetsFragment : Fragment() {

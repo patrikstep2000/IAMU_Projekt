@@ -10,7 +10,6 @@ import com.google.firebase.ktx.Firebase
 import com.squareup.picasso.Picasso
 import hr.algebra.petshop.adapter.POSITION
 import hr.algebra.petshop.databinding.ActivityPetBinding
-import hr.algebra.petshop.databinding.PetBinding
 import hr.algebra.petshop.framework.startActivity
 import hr.algebra.petshop.handler.petDTOToPet
 import hr.algebra.petshop.model.Pet

@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import hr.algebra.petshop.databinding.ActivityLoginBinding
-import hr.algebra.petshop.databinding.ActivityMainBinding
 import hr.algebra.petshop.framework.startActivity
 
 class LoginActivity : AppCompatActivity() {

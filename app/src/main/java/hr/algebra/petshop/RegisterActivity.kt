@@ -2,10 +2,8 @@ package hr.algebra.petshop
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import hr.algebra.petshop.databinding.ActivityLoginBinding
 import hr.algebra.petshop.databinding.ActivityRegisterBinding
 import hr.algebra.petshop.framework.startActivity
 

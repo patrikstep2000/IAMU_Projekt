@@ -12,12 +12,6 @@ import android.preference.PreferenceManager
 import android.view.View
 import android.view.animation.AnimationUtils
 import androidx.core.content.getSystemService
-import hr.algebra.petshop.handler.downloadImageAndStore
-import hr.algebra.petshop.model.Pet
-import hr.algebra.petshop.model.PetDTO
-import hr.algebra.petshop.model.PetType
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 
 fun View.applyAnimation(animationId: Int) = startAnimation(AnimationUtils.loadAnimation(context, animationId))
 

@@ -8,17 +8,14 @@ import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
 import android.widget.TextView
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.replace
 import com.google.firebase.auth.FirebaseAuth
 import hr.algebra.petshop.databinding.ActivityMainBinding
 import hr.algebra.petshop.framework.startActivity
-import org.w3c.dom.Text
 
 class MainActivity : AppCompatActivity() {
     private lateinit var toggle: ActionBarDrawerToggle

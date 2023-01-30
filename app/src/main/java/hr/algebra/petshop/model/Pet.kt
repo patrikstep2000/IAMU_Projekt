@@ -1,8 +1,5 @@
 package hr.algebra.petshop.model
 
-import com.google.firebase.database.Exclude
-import com.google.firebase.database.IgnoreExtraProperties
-
 data class Pet(
     var id: Int?,
     var name: String?,

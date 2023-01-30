@@ -2,11 +2,9 @@ package hr.algebra.petshop
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.text.format.DateUtils
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.google.android.material.datepicker.MaterialDatePicker
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ktx.database
 import com.google.firebase.database.ktx.getValue
