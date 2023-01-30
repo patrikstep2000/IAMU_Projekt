@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:backgroundTint="@color/white">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_pets"
+            android:title="@string/pets"
+            android:icon="@drawable/items"/>
+
+        <item
+            android:id="@+id/nav_orders"
+            android:title="My orders"
+            android:icon="@drawable/order"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about"
+            android:icon="@drawable/about"/>
+
+    </group>
+
+</menu>

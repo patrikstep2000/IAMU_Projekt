@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashPaddingMain">50dp</dimen>
+    <dimen name="splashIvHeight">300dp</dimen>
+    <dimen name="splashTextSize">50sp</dimen>
+    <dimen name="paddingAbout">20dp</dimen>
+    <dimen name="textSizeAbout">50sp</dimen>
+    <dimen name="navHeaderWidth">150dp</dimen>
+    <dimen name="navHeaderHeight">100dp</dimen>
+    <dimen name="navHeaderMarginTop">25dp</dimen>
+    <dimen name="navViewWidth">162dp</dimen>
+    <dimen name="navViewHeight">240dp</dimen>
+    <dimen name="radius">9dp</dimen>
+    <dimen name="petsPadding">5dp</dimen>
+    <dimen name="ivSize">150dp</dimen>
+    <dimen name="marginLeft">20dp</dimen>
+    <dimen name="tvSizeSmall">16sp</dimen>
+    <dimen name="tvSizeBig">20sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_width">150dp</dimen>
+    <dimen name="nav_header_padding">8dp</dimen>
+    <dimen name="ivItemHeight">200dp</dimen>
+</resources>

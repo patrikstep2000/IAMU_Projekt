@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PetActivity"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        tools:src="@drawable/pet_shop"
+        android:id="@+id/ivItem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ivItemHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:text="@string/name"
+            android:padding="@dimen/petsPadding"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:text="@string/age"
+            android:padding="@dimen/petsPadding"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvType"
+            android:text="@string/breed"
+            android:padding="@dimen/petsPadding"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:text="@string/location"
+            android:padding="@dimen/petsPadding"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvDetails"
+            android:text="@string/details"
+            android:padding="@dimen/petsPadding"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:text="@string/price"
+            android:padding="@dimen/petsPadding"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginVertical="@dimen/activity_horizontal_margin"
+        style="@style/Widget.MaterialComponents.Button"
+        app:backgroundTint="@color/blue"
+        android:id="@+id/btnBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

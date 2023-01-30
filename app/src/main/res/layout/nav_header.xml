@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:backgroundTint="@color/white"
+    android:id="@+id/nav_header"
+    android:layout_marginBottom="20dp"
+    >
+
+    <TextView
+        android:text="@string/logged_in_as"
+        android:textSize="@dimen/tvSizeSmall"
+        android:textColor="@color/black"
+        android:paddingTop="@dimen/nav_header_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:text="your@email.com"
+        android:textSize="@dimen/tvSizeSmall"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/nav_header_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
